@@ -500,13 +500,18 @@ footer {
   .partners_list ul {
       list-style: none;
   }
+  p.resources {
+    text-align: left;
+   
+}
 
   h3.resources {
-      text-align: center;
+      text-align: left;
       font-weight: 500;
       /* color: #111; */
       font-size: 14px;
       margin: 10px 0;
+      padding: 5px 10px;
   }
 
 ul li {
@@ -615,6 +620,7 @@ display: flex;
     transform: scale(1);
     transition: transform 0.5s;
     position: relative;
+    padding: 10px;
   }
 
   .slides > div:target {
